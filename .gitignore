@@ -1,0 +1,25 @@
+
+# 🛑 Security & API Keys
+.env
+.env.*
+
+# 📦 Virtual Environments
+.venv/
+venv/
+env/
+
+# 🐍 Python Caches & Compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 📝 Logs and Databases
+logs/
+*.log
+*.sqlite3
+
+# 💻 OS & Editor Files
+.vscode/
+.DS_Store
+Thumbs.db
