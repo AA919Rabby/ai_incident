@@ -11,7 +11,7 @@ def get_gemini_llm():
     if not api_key:
         raise ValueError("GEMINI_API_KEY environment variable is not set")
     return LLM(
-        model="gemini-2.5-flash",
+        model="gemini-3.6-flash",
         google_api_key=api_key,
         temperature=0.3,
         timeout=5,
